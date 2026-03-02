@@ -1,11 +1,6 @@
-name: Build ToRemote
+name: Build All Platforms
 
 on:
-  push:
-    branches: [master]
-    paths-ignore:
-      - "**.md"
-      - "server-deploy/**"
   workflow_dispatch:
 
 jobs:
